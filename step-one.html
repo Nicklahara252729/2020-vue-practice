@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Belajar Vue</title>
+</head>
+<body>
+  <div id="main">
+    <h1>{{ message }}</h1>
+    <p>{{ teks }}</p>
+    <p>{{ name }}</p>
+    <p>{{ age }}</p>
+    <p>{{ gender }}</p>
+    <p>{{ hobby }}</p>
+    <p>{{ siblings }}</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+  <script type="text/javascript">
+    var vm = new Vue({
+        el:'#main',
+        data: {
+            message: 'Hello world!',
+            teks: 'Semangat Pagi Indonesia',
+            name: 'Nics', // string
+            age: 20, // integer
+            gender: true, // boolean (Pria)
+            hobby: ['coding','sleeping'], // array
+            siblings: {
+                1: 'Novia',
+                2: 'Naira',
+                3: 'Kaisar'
+            } // object
+        }
+    })
+    //vm.message = "Wow reaktif ya"
+    //vm.$mount('#main')
+    </script>
+</body>
+</html>
+
+http://sekolah.schlrr.com/
+http://beta.xavaxx.com/
+https://lldikti1.ristekdikti.go.id/
+http://moneycare.us/
+https://silbusiness.com/
+https://rekrutmen.silbusiness.com/
+http://bbpptp.ajitama.id/
+https://mintabayar.com/elearning/
